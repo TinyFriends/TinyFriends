@@ -1,0 +1,146 @@
+.footer{
+    margin-top: 23px;
+}
+.cart{
+    width: 1200px;
+    /* height: 400px; */
+    margin: 80px auto 60px;
+    border: 2px solid #333;
+    /* padding: 20px; */
+    box-shadow: 8px 8px #969696;
+}
+.cart h1{
+    /* width: 100%; */
+    height: auto;
+    font-size: 25px;
+    font-family: var(--main-font);
+    margin: 0;
+    border-bottom: 2px solid #333;
+    padding: 24px;
+}
+.product-list{
+    margin: 0;
+}
+.product-item{
+    height: auto;
+    border-bottom: 2px solid #333;
+    padding: 30px 80px;
+    padding-bottom: 10px !important;
+    display: flex;
+    justify-content: space-between;
+    line-height: 20px;
+}
+.product-item img{
+    width: 76px;
+    height: 76px;
+    border: 2px solid #333;
+}
+.product-detail{
+    font-family: Cascadia Code;
+    font-size: 14px;
+}
+.product-title{
+    font-weight: 700;
+}
+.classify{
+    font-family: Cascadia Code;
+    font-size: 14px;   
+}
+.classify-title{
+    font-weight: 600;
+}
+.delete:hover{
+    background-color: #f7de24;
+}
+.total{
+    font-size: 16px;
+    font-weight: 600;
+    margin-top: 20px;
+    font-family: var(--main-font);
+}
+
+.delete{
+    width: 30px;
+    height: 30px;
+    border: 2px solid #333;
+    margin-top: 12px;
+    text-align: center;
+    line-height: 30px;
+    font-weight: 700;
+    font-size: 20px;
+}
+.payment{
+    display: flex;
+    justify-content: space-between;
+    padding: 6px 80px;
+    background-color: pink;
+}
+.payment-price p{
+    font-family: var(--main-font);
+    font-size: 20px;
+    margin: 0;
+}
+.payment-title{
+    font-size: 25px;
+}
+.payment-price button
+{
+    margin-bottom: 10px;
+}
+.successful{
+    width: 600px;
+    height: 350px;
+    position: absolute;
+    top: 173px;
+    box-shadow: 10px;
+    z-index: 1111;
+    left: 375px;
+    border: 2px solid #333;
+    display: none;
+}
+.successful-active{
+    display: block;
+}
+.successful-header{
+    height:70px ;
+    display: flex;
+    background:#FFA4B2 ;
+    justify-content: end;
+}
+.successful-header div{
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #fff;
+    /* text-align: right; */
+    line-height: 70px;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+.successful-bottom{
+    background-color: #fff;   
+    height: 280px;
+    border-bottom: 2px solid #333;
+    text-align: center;
+    line-height: 280px;
+    font-size: 26px;
+    font-family: var(--main-font);
+    position: relative;
+    text-transform: uppercase;
+}
+.closer{
+    width: 50px;
+    height: 50px;
+    font-size: 25px;
+    font-weight: 700;
+    position: absolute;
+    bottom: 30px;
+    right: 30px;
+    border: 2px solid #333;
+    line-height: 50px;
+    text-align: center;
+    box-shadow: 4px 4px #969696;
+}
+.closer:hover{
+    background-color: #f7de24;
+}

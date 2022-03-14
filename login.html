@@ -1,0 +1,176 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Login</title>
+
+<link rel="stylesheet" href="./css/main.css">
+<link rel="stylesheet" href="./css/login.css">
+<link rel="stylesheet" href="./css/base.css">
+<link hre="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+        <link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./fontf/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+
+<body>
+	<div class="navbar">
+		<nav class="header navbar navbar-inverse fixed-top ">
+		
+		 
+		  <ul class="nav justify-content-center header-col col">
+			<li class="active navbar-item"><a href="./introduce.html" class="nav-link">Giới thiệu</a></li>
+			<li class="dropdown"><a style="color:FF7C90"  data-toggle="dropdown" href="./product.html">Quà lưu niệm <span class="caret"></span></a>
+			  <ul class="dropdown-menu ">
+				<li><a href="./product.html">tất cả</a></li>
+				<li><a href="./product.html">móc khóa</a></li>
+				<li><a href="./product.html">ly giữ nhiệt</a></li>
+				<li><a href="./product.html">ốp lưng</a></li>
+				<li><a href="./product.html">sitcker</a></li>
+			  </ul>
+			</li>
+			 <div class="navbar-header ">
+			<a class="navbar-brand nav-link" href="./index2.html">Tiny Friends</a>
+		  </div>
+		  <!-- <ul class="nav navbar-nav navbar-right col">
+			
+		  </ul> -->
+			<li class="nav-item"><a class="nav-link" href="./cart.html">Giỏ hàng</a></li>
+			
+			<li><a class="nav-link" id="header-signup" href="#"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
+			<li><a class="nav-link active-header" id="header-signin" href="#"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+		  </ul>
+		 
+	
+	  </nav>
+	</div>
+	
+
+    <!-- Container login -->
+    <div class="container-login sign-in active">
+            <div class="login-left sign-in-left">
+                <img src="./images/4_nhan_vat.png" alt="">
+            </div>
+            <div class="login-right">
+                <p class="" style="right: -360px; position: relative; top: 8px;">Bạn có phải là thành viên <a onclick="signupF()"   href="#" style="color: rgb(63, 63, 240) !important;">Đăng ký ngay</a></p>
+                <h1 style="margin-top:80px;">Đăng nhập vào </br>Tiny Friends </h1>
+        
+               <div class="email">
+                    <div class="text text-login">
+                        <p>Tên người dùng hoặc địa chỉ Email</p>
+                    </div>
+                    <div class="">
+                        <input type="text" class="input">
+                    </div>
+               </div>
+
+               <div class="password">
+                    <div class="text">
+                        <p>Mặt khẩu;</p>
+                    </div>
+                    <div class="">
+                        <input type="password" class="input" placeholder="6+ ký tự">
+                    </div>
+                </div>
+                 <button class="btn-main btn-user btn-login">Đăng nhập</button>
+                
+
+            </div>
+    </div>
+
+
+    <!-- Container registration-->
+    <div class="container-login cotainer-registration">
+        <div class="login-left">
+            <img src="./images/4_nhan_vat.png" alt="">
+        </div>
+        <div class="login-right">
+            <p class="" style="right: -360px; position: relative; top: 8px;">Bạn có phải là thành viên <a onclick="signinF()" href="#" style="color: rgb(63, 63, 240) !important;">Đăng nhập ngay</a></p>
+            <h1 style="margin-top: 40px !important;">Đăng ký vào </br>Tiny Friends </h1>
+            <div class="text">
+                <p>Họ</p>
+                <p style="margin-left:10px">Tên</p>
+            </div>
+
+            <div class="input-name">
+                <input type="text">
+                <input type="text">
+            </div>
+
+           <div class="email">
+                <div class="text">
+                    <p>Emai;</p>
+                </div>
+                <div class="">
+                    <input type="text" class="input">
+                </div>
+           </div>
+
+           <div class="password">
+                <div class="text">
+                    <p>Mặt khẩu;</p>
+                </div>
+                <div class="">
+                    <input type="password" class="input" placeholder="6+ ký tự">
+                </div>
+            </div>
+
+            <div class="check">
+                    <input type="checkbox" class="checkbox" placeholder="6+ ký tự">
+
+                    <div class="content-check">
+                        <p>Tạo tài khoản có nghĩa là bạn đã đồng ý <a href="#" style="color:rgb(63, 63, 240) !important ; cursor: pointer;">Điều
+                            khoản dịch vụ ,Chính sách , quyền riêng tư
+                        </a> và <a href="#" style="color: rgb(63, 63, 240) !important ; cursor: pointer;">Cài đặt thông báo mặt định của chúng tôi</a>
+                    </p>
+                    </div>
+            </div>
+            <button class="btn-main btn-user">Đăng ký</button>
+
+        </div>
+</div>
+				
+    
+
+
+			
+	<div class="footer" >
+				<ul class="footer-list">
+					<li class="footer-item">
+						<p class="title footer-title">LINH VẬT CỦA CỬA HÀNG</p>
+						<img src="./images/4_nhan_vat.png" alt="">
+						<div class="tiny-friends">TINY FRIENDS</div>
+					</li>
+					<li class="footer-item footer-about">
+						<a href=""><p class="footer-about-title">Giới thiệu</p></a>
+						<a href=""><p>Về chúng tôi</p></a>
+						<a href=""><p>Sản phẩm</p></a>
+						<a href=""><p>Quà lưu niệm</p></a>
+						<a href=""><p>Giỏ hàng</p></a>
+					</li>
+					<li class="footer-item footer-about">
+						<a href=""><p class="rules">Điều khoản</p></a>
+						<a href=""><p>Điều khoản sử dụng</p></a>
+						<a href=""><p>Quy tắc sử dụng</p></a>
+					</li>
+					<li class="footer-item">
+						<div class="footer-icon">
+							<a href="#"><i class="bi bi-facebook icon-fb"></i></a>
+							<a href="#"><i class="bi bi-instagram icon-isn"></i></a>
+						</div>
+					</li>
+				</ul>
+	</div>
+	
+	
+</body>
+<script src="./js/main.js"></script>
+<!-- <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script> -->
+</html>

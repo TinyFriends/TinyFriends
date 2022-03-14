@@ -1,0 +1,85 @@
+.info{
+    /* margin-top: 24px; */
+
+    padding-top: 1px !important;
+}
+
+.seach-input{
+    margin-top: 90px !important;
+}
+.fa-search {
+    top: 96px !important;
+}
+.detail-product{
+    width: 100%;
+    height: auto;
+    background-color: #fff;
+    margin-top: 24px;
+    padding-left: 273px;
+    /* position: relative; */
+}
+.detail-product p {
+    font-family: "Cascadia Code";
+    font-size: 15px;
+    margin: 50px 0;
+
+}
+.product{
+    display: flex;
+}
+.product-img{
+    width: 400px;
+    height: 400px;
+    border: 2px solid #333;
+    box-shadow: 10px 10px #969696;
+}
+.product-content{
+    margin-left: 50px;
+}
+.product-title{
+    font-size: 30px;
+    font-weight: 600;
+    font-family: 'Cascadia Code';
+    margin-bottom: 10px;
+}
+.product-description{
+    margin: 20px 0 !important;
+    font-family: 'Cascadia Code';
+}
+.product-price{
+    font-size: 30px;
+    color: #D95469;
+    font-family: 'Cascadia Code';
+    font-weight: 600;
+}
+.btn-product-content{
+    margin-top: 20px;
+    height: 40px;
+    width: 193px;
+}
+.title{
+    font-size: 25px !important;
+    font-weight: 600;
+    color: #333;
+    text-align: left;
+    font-family: var(--main-font) !important;
+    margin-bottom: 5px !important;
+}
+.product-more{
+    width: 200px;
+}
+.product-more p {
+    text-align: left !important;
+    padding-right: 30px;
+    font-family: 'Cascadia Code' !important;
+    font-weight: 700; 
+    font-size: 18px !important;
+}
+.info-member-price{
+    margin-top: 15px !important;
+    color: #D95469;
+}
+.footer-title{
+    color: #fff !important;
+    font-size: 20px !important;
+}

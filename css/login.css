@@ -1,0 +1,142 @@
+
+.header{
+    margin: 0 !important;
+    padding: 0 !important;
+}
+.header-col{
+    margin: 0 !important;
+    line-height: 50px;
+}
+.navbar{
+    padding:  0 !important;
+    margin: 0 !important;
+}
+.footer{
+    position: relative;
+    bottom: -19px;
+    height: 100% !important;
+    margin-top: 25px;
+}
+.container-login{
+    height: 570px;;
+    position: relative;
+    top: 19px;
+    display:flex;
+    justify-content: space-between;
+}
+.login-left{
+    width: 558px;
+    height: 548px;
+    background-color: #F7DE24;
+    position: relative;
+    box-shadow: 15px 13px #888888;
+}
+.sign-in-left{
+    background-color: #FFA4B2;
+}
+.login-left img{
+    position: absolute;
+    width: 672px;
+    height: 400px;
+    bottom: 35px;
+    left: -68px;
+}
+.login-right{
+    flex: 1;
+    padding-left:120px ;
+}
+.login-right h1{
+    font-size: 35px;
+    font-weight: 600;
+    font-family: Cascadia Code;
+    margin-top: 60px;
+}
+.text{
+    display: flex;
+    width: 250px;
+    height: 30px;
+    justify-content: space-between;
+    font-size: 18px;
+    margin: 15px 0 5px 0;
+    font-weight: 500;
+    font-family: Cascadia Code;
+}
+.text p:last-child{
+    flex: 0.6;
+}
+.input{
+    width: 320px;
+    box-shadow: 6px 6px #888888;
+    height: 30px;
+}
+.input-name input{
+    height: 30px;
+    box-shadow: 6px 6px #888888;
+}
+.input-name input:first-child{
+    width: 120px;
+    height: 30px;
+}
+.input-name input:last-child{
+    position: relative;
+    left: -6px;
+    height: 30px;
+    width: 200px;
+}
+.email,.password{
+    margin-top: 25px;
+}
+.password > div > input{
+    padding-left: 15px;
+}
+.check{
+    margin-top: 30px;
+    display: flex;
+    padding-right: 60px;
+    /* transform: scale(1.5); */
+}
+.checkbox{
+    transform: scale(1.5);
+    margin-left: 5px;
+    margin-right : 20px !important;
+
+}
+.btn-user{
+    width: 120px;
+    height: 40px;
+}
+.text-login{
+    display: block !important;
+    width: auto;
+}
+
+.btn-login{
+    margin-top: 20px;
+}
+.cotainer-registration{
+    display: none;
+}
+.sign-in{
+    display: none;
+}
+
+
+.active{
+    display: flex !important;
+}
+.active-header{
+    color: var(--primary-color) !important;
+}
+.content-check{
+    padding-right: 305px;
+}
+.content-check p{
+    font-size: 14px;
+}
+.footer-title{
+    font-size: 20px !important;
+    margin-left: 30px !important;
+}
+.text{
+    font-size: var(--primary-color);
+}

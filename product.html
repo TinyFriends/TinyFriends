@@ -1,0 +1,353 @@
+<!doctype html>
+<html>
+<head>
+<meta charset="utf-8">
+<title>Sản phẩm</title>
+	<link rel="stylesheet" href="./css/base.css">
+	<link href="css/main.css" rel="stylesheet">
+    <link rel="stylesheet" href="./css/product.css">
+	<link href='https://fonts.googleapis.com/css?family=Bungee' rel='stylesheet'>
+	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+  <link rel="stylesheet" href="./fontf/fontawesome-free-5.15.1-web/fontawesome-free-5.15.1-web/css/all.min.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.8.1/font/bootstrap-icons.css">
+</head>
+
+<body>
+<div class="container"></div>
+	<div class="navbar">
+		<nav class="header navbar navbar-inverse fixed-top "> 
+		  <ul class="nav justify-content-center col">
+			<li class="active navbar-item"><a href="./introduce.html" class="nav-link">Giới thiệu</a></li>
+			<li class="dropdown"><a style="color:#FF7C90"  data-toggle="dropdown" href="./product.html">Quà lưu niệm <span class="caret"></span></a>
+			  <ul class="dropdown-menu ">
+				<li><a  href="./product.html">tất cả</a></li>
+				<li><a href="./product.html">móc khóa</a></li>
+				<li><a href="./product.html">ly giữ nhiệt</a></li>
+				<li><a href="./product.html">ốp lưng</a></li>
+				<li><a href="./product.html">sitcker</a></li>
+			  </ul>
+			</li>
+			 <div class="navbar-header ">
+			<a class="navbar-brand nav-link" href="./index2.html">Tiny Friends</a>
+		  </div>
+		  <!-- <ul class="nav navbar-nav navbar-right col">
+			
+		  </ul> -->
+          <li><a class="nav-link" href="./login.html"><span class="glyphicon glyphicon-user"></span> Đăng ký</a></li>
+          <li><a class="nav-link" href="./login.html"><span class="glyphicon glyphicon-log-in"></span> Đăng nhập</a></li>
+          <li class="nav-item"><a class="nav-link" href="./cart.html">Giỏ hàng</a></li>
+          
+		  </ul>
+		 
+	
+	  </nav>
+	</div>
+	
+
+    <!-- Product -->
+    <div class="product">
+
+        <!-- left -->
+        <div class="product-left">
+            <a onclick="activemenu(0)" style="cursor: pointer;" class="product-left-title product-left-link active-link">Tất cả</a>
+            <ul class="product-left-list">
+                <li class="product-left-item"><a  onclick="activemenu(1)" class="product-left-link" href="#mockhoa">Móc khóa</a></li>
+                <li class="product-left-item"><a onclick="activemenu(2)" class="product-left-link" href="#lygiunhiet">Ly giữ nhiệt</a></li>
+                <li class="product-left-item"><a onclick="activemenu(3)" class="product-left-link" href="#lygiunhiet">Nắp thường</a></li>
+                <li class="product-left-item"><a onclick="activemenu(4)" class="product-left-link" href="#napvom">Nắp võm</a></li>
+                <li class="product-left-item"><a onclick="activemenu(5)" class="product-left-link" href="#oplung">Óp lưng</a></li>
+                <li class="product-left-item"><a onclick="activemenu(6)" class="product-left-link" href="#sticker">STICKER</a></li>
+
+            </ul>
+        </div>
+
+        <!-- right -->
+        <div class="product-right">
+            <input class="seach-input" type="text" placeholder="Tìm kiếm">
+            <span>
+                <i class="fa fa-search" style="font-size: 20px;"></i>
+            </span>
+            <!-- Móc khóa -->
+            <div class="product-container" id="mockhoa" style="margin-top:50px">
+                <h2 class="product-container-title">Móc khóa</h2>
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/4.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/2.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - Lin</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/1.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - Chom</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/3.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/Keychain Rabbit.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/4.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - Lin</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/Keychain Mouse.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/Keychain Duck.png" alt=""></a>
+                        <a href="./detail.html"><p>Móc khóa tròn - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Ly giữ nhiệt nắp thường -->
+            <div class="product-container" id="napthuong">
+                <h2 class="product-container-title">LY GIỮ NHIỆT - NẮP THƯỜNG</h2>
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/ly vit nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt loang màu - Chom</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/ly tho nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt loang màu - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/ly gau nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt loang màu - Lin</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/ly chuot nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt loang màu - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/combo 2 ly.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt loang màu - Don & Lin</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/combo 2 ly vit chuot.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt loang màu - Chom & Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/combo 2 ly tho vit.png" alt=""></a>
+                        <a href="./detail.html"><p>Combo 2 ly giữ nhiệt loang màu - An & Chom</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/combo 2 ly gau tho.png" alt=""></a>
+                        <a href="./detail.html"><p>Combo 2 ly giữ nhiệt loang màu - Lin & An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+                
+
+
+
+            </div>
+
+
+            <!-- Ly giữ nhiêt nắp võm -->
+            <div id="lygiunhiet" class="product-container">
+                <h2 class="product-container-title">LY GIỮ NHIỆT - NẮP VÕM</h2>
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/ly up con chuot nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt  - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/ly up con vit nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt  - Chom</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/ly up con tho nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt  - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/ly up con gau nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ly giữ nhiệt loang màu - Lin</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+            </div>
+
+
+            <!-- Ốp lưng -->
+            <div class="product-container" id="oplung">
+                <h2 class="product-container-title">ỐP LƯNG </h2>
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/op lung con vit  nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng caro  - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/op lung con tho nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng caro  - Chom</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/op lung con gau nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng caro  - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/op lung con chuot nen trang.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng caro  - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/op lung con vit 2.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng họa tiết tức giận  - Chom</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/op lung con tho 2.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng họa tiết tức giận  - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/op lung con gau 2.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng họa tiết tức giận  - Lin</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/op lung con chuot 2.png" alt=""></a>
+                        <a href="./detail.html"><p>Ốp lưng họa tiết tức giận  - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                 
+                </ul>
+               
+            </div>
+
+              <!-- STICKER -->
+              <div class="product-container" id="sticker">
+                <h2 class="product-container-title">STIECKER </h2>
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/Sticker Rabbit.png" alt=""></a>
+                        <a href="./detail.html"><p>Sticker dễ thương  - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item margin">
+                        <a href="./detail.html"><img src="./images/Sticker Panda.png" alt=""></a>
+                        <a href="./detail.html"><p>Sticker dễ thương  - Chom</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/Sticker Mouse.png" alt=""></a>
+                        <a href="./detail.html"><p>Sticker dễ thương  - An</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+                <ul class="product-content">
+                    <li class="product-content-item">
+                        <a href="./detail.html"><img src="./images/Sticker Duck.png" alt=""></a>
+                        <a href="./detail.html"><p>Sticker dễ thương  - Don</p></a>
+                        <a href="./detail.html"><p class="product-content-price" >50.000 Đ</p></a>
+                    </li>
+                </ul>
+
+                
+               
+            </div>
+
+
+        </div>
+    </div>
+
+
+
+	<!-- Footer -->
+    <div class="footer" >
+        <ul class="footer-list">
+            <li class="footer-item">
+                <p class="title footer-title">LINH VẬT CỦA CỬA HÀNG</p>
+                <img src="./images/4_nhan_vat.png" alt="">
+                <div class="tiny-friends">TINY FRIENDS</div>
+            </li>
+            <li class="footer-item footer-about">
+                <a href=""><p class="footer-about-title">Giới thiệu</p></a>
+                <a href=""><p>Về chúng tôi</p></a>
+                <a href=""><p>Sản phẩm</p></a>
+                <a href=""><p>Quà lưu niệm</p></a>
+                <a href=""><p>Giỏ hàng</p></a>
+            </li>
+            <li class="footer-item footer-about">
+                <a href=""><p class="rules">Điều khoản</p></a>
+                <a href=""><p>Điều khoản sử dụng</p></a>
+                <a href=""><p>Quy tắc sử dụng</p></a>
+            </li>
+            <li class="footer-item">
+                <div class="footer-icon">
+                    <a href="#"><i class="bi bi-facebook icon-fb"></i></a>
+                    <a href="#"><i class="bi bi-instagram icon-isn"></i></a>
+                </div>
+            </li>
+        </ul>
+    </div>
+</div>
+	
+	
+</body>
+<script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+<script src="./js/product.js"></script>
+</html>
